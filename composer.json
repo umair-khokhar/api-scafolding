@@ -10,6 +10,7 @@
     ],
     "require":
     {
+        "phpunit/phpunit": "4.8.*",
         "indeyets/pake": "~1.99",
         "shuber/curl": "dev-master",
         "slim/slim": "2.*",
