@@ -1,0 +1,33 @@
+{
+    "name": "Synchronization API",
+    "description": "API methods are called from HubSpot or vice versa to synchronize information.",
+    "authors": [
+        {
+            "name": "Muhammad Umair",
+            "email": "umair@tezrosolutions.com",
+            "role": "Developer"
+        }
+    ],
+    "require":
+    {
+        "indeyets/pake": "~1.99",
+        "shuber/curl": "dev-master",
+        "slim/slim": "2.*",
+        "slim/views": "0.1.*",
+        "there4/slim-test-helpers": "dev-master",
+        "twig/twig": "1.15.0",
+        "fungku/hubspot": "1.0.*",
+        "tuupola/slim-basic-auth": "1.0.*",
+        "ktamas77/firebase-php": "dev-master"
+
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "1.*",
+        "phpunit/phpunit": "4.*",
+        "indeyets/pake": "~1.99",
+        "codeclimate/php-test-reporter": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"There4": "lib/"}
+    }
+}
